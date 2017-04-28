@@ -1,0 +1,84 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.in-block{
+  display: inline-block;
+}
+
+.abs{
+  position: absolute;
+}
+
+.form-container{
+  background-color: rgb(139, 30, 46);
+  width: 52%;
+  height: 20rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.captcha-container{
+  top: 1rem;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: auto;
+}
+
+#captcha-value, #inpt-captcha-text{
+  height: 9vw;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.capt-text-container{
+  left: 4.2rem;
+  bottom: 1rem;
+  width: 50%;
+}
+
+#inpt-captcha-text{
+  font-size: 2rem;
+  background-color: rgb(249, 231, 119);
+}
+
+.refr-container{
+  bottom: 4rem;
+  left: 27rem;
+}
+
+.check-container{
+  bottom: 1rem;
+  left: 27rem;
+}
+
+
+.tooltiptext{
+  display: none;
+  background-color: rgba(255, 20, 147, 0.8);
+  padding: 5px;
+  position: absolute;
+  left: 110%;
+  top: -3px;
+  width: 11.5rem;
+  color: white;
+}
+
+.tooltiptext:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid rgba(255, 20, 147, 0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top: 10px;
+}
